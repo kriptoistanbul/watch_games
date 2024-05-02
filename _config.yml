@@ -3,8 +3,8 @@
 # Site settings
 title: "Watch.Games - Sport, Streaming & News"
 email: "contact.watch.games@gmail.com"
-baseurl: "watch_games" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://watch.games/" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/header-brand.webp
 description: ""
 keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
