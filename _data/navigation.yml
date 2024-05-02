@@ -1,0 +1,252 @@
+- text: Home
+  url: /
+  meganenu: false
+
+- text: Football
+  url: /football
+  meganenu: true
+  submenu:
+    - title: Leagues
+      submenuitem:
+        - text: Premier League
+          url: /premier-league
+        - text: La Liga
+          url: /la-liga
+        - text: Serie A
+          url: /serie-a
+        - text: Bundesliga
+          url: /bundesliga
+        - text: MLS
+          url: /mls
+    - title: International
+      submenuitem:
+        - text: World Cup
+          url: /world-cup
+        - text: UEFA Euro
+          url: /uefa-euro
+        - text: Copa America
+          url: /copa-america
+    - title: Women's Football
+      submenuitem:
+        - text: Women's World Cup
+          url: /womens-world-cup
+        - text: UEFA Women's Championship
+          url: /uefa-womens-championship
+    - title: Transfer News
+      submenuitem:
+        - text: Latest Transfers
+          url: /latest-transfers
+        - text: Rumor Mill
+          url: /rumor-mill
+    - title: Player Profiles
+      submenuitem:
+        - text: Profiles and Statistics
+          url: /football-player-profiles
+- text: Basketball
+  url: /basketball
+  meganenu: true
+  submenu:
+    - title: Leagues
+      submenuitem:
+        - text: NBA
+          url: /nba
+        - text: WNBA
+          url: /wnba
+        - text: EuroLeague
+          url: /euroleague
+    - title: International
+      submenuitem:
+        - text: FIBA World Cup
+          url: /fiba-world-cup
+        - text: Olympic Basketball
+          url: /olympic-basketball
+    - title: Player Profiles
+      submenuitem:
+        - text: Profiles and Statistics
+          url: /basketball-player-profiles
+          
+- text: Cricket
+  url: /cricket
+  meganenu: true
+  submenu:
+    - title: International
+      submenuitem:
+        - text: ICC World Cup
+          url: /icc-world-cup
+        - text: T20 World Cup
+          url: /t20-world-cup
+    - title: Leagues
+      submenuitem:
+        - text: IPL
+          url: /ipl
+        - text: Big Bash
+          url: /big-bash
+        - text: CPL
+          url: /cpl
+    - title: Player Focus
+      submenuitem:
+        - text: Player Biographies
+          url: /player-biographies
+        - text: Record Breakers
+          url: /record-breakers
+
+- text: Tennis
+  url: /tennis
+  meganenu: true
+  submenu:
+    - title: Tournaments
+      submenuitem:
+        - text: Grand Slams
+          url: /grand-slams
+        - text: ATP Tour
+          url: /atp-tour
+        - text: WTA Tour
+          url: /wta-tour
+    - title: Player Profiles
+      submenuitem:
+        - text: Top-Ranked Players
+          url: /top-ranked-players
+        - text: Rising Stars
+          url: /rising-stars
+- text: Golf
+  url: /golf
+  meganenu: true
+  submenu:
+    - title: Tournaments
+      submenuitem:
+        - text: Masters
+          url: /masters
+        - text: PGA Tour
+          url: /pga-tour
+        - text: Ryder Cup
+          url: /ryder-cup
+    - title: Player Profiles
+      submenuitem:
+        - text: Golfer Statistics
+          url: /golfer-statistics
+        - text: Award Winners
+          url: /award-winners
+    - title: Course Reviews
+      submenuitem:
+        - text: Famous Courses
+          url: /famous-courses
+        - text: New Openings
+          url: /new-openings
+    - title: Equipment Reviews
+      submenuitem:
+        - text: Latest Gear
+          url: /latest-gear
+        - text: Technology Updates
+          url: /technology-updates
+
+- text: Motorsports
+  url: /motorsports
+  meganenu: true
+  submenu:
+    - title: Formula 1
+      submenuitem:
+        - text: Race Calendar
+          url: /race-calendar
+        - text: Team News
+          url: /team-news
+    - title: MotoGP
+      submenuitem:
+        - text: Rider Profiles
+          url: /rider-profiles
+        - text: Circuit Information
+          url: /circuit-information
+    - title: Rallying
+      submenuitem:
+        - text: World Rally Championship
+          url: /world-rally-championship
+        - text: Event Previews
+          url: /event-previews
+    - title: Electric Racing
+      submenuitem:
+        - text: Formula E
+          url: /formula-e
+        - text: Developments in Racing Tech
+          url: /racing-tech-developments
+
+- text: Other Sports
+  url: /other-sports
+  meganenu: true
+  submenu:
+    - title: Olympics
+      submenuitem:
+        - text: Summer Olympics
+          url: /summer-olympics
+        - text: Winter Olympics
+          url: /winter-olympics
+    - title: Extreme Sports
+      submenuitem:
+        - text: Surfing
+          url: /surfing
+        - text: Skateboarding
+          url: /skateboarding
+    - title: E-Sports
+      submenuitem:
+        - text: Major Tournaments
+          url: /major-tournaments
+        - text: Team Profiles
+          url: /team-profiles
+
+- text: Health & Fitness
+  url: /health-fitness
+  meganenu: true
+  submenu:
+    - title: Health
+      submenuitem:
+        - text: Athlete Diets
+          url: /athlete-diets
+        - text: Workout Regimes
+          url: /workout-regimes
+    - title: Fitness
+      submenuitem:
+        - text: Strength Training
+          url: /strength-training
+        - text: Cardio Exercises
+          url: /cardio-exercises
+        - text: Yoga and Flexibility
+          url: /yoga-flexibility
+        - text: Home Workouts
+          url: /home-workouts
+    - title: Nutrition
+      submenuitem:
+        - text: Diet Plans
+          url: /diet-plans
+        - text: Supplements
+          url: /supplements
+        - text: Healthy Recipes
+          url: /healthy-recipes
+        - text: Meal Prepping
+          url: /meal-prepping
+    - title: Fitness Gear and Apparel
+      submenuitem:
+        - text: Equipment Reviews
+          url: /equipment-reviews
+        - text: Apparel Guide
+          url: /apparel-guide
+        - text: Tech and Apps
+          url: /tech-apps
+    - title: Wellness and Lifestyle
+      submenuitem:
+        - text: Mental Health
+          url: /mental-health
+        - text: Sleep Hygiene
+          url: /sleep-hygiene
+        - text: Stress Management
+          url: /stress-management
+
+
+- text: Streaming Channels
+  url: /streaming-channels
+  meganenu: false
+
+- text: About Us
+  url: /about-us
+  meganenu: false
+
+- text: Contact
+  url: /contact
+  meganenu: false

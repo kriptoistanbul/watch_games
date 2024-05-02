@@ -1,0 +1,148 @@
+  - name: Football
+    slug: football
+    description: Football-related news and updates, including leagues, international tournaments, transfers, and player profiles.
+    image: /assets/images/blog/blog-img3.jpg
+    subcategories:
+      - name: Leagues
+        slug: leagues
+        description: News and updates from various football leagues around the world.
+      - name: International
+        slug: international
+        description: Updates on international football tournaments and competitions.
+      - name: Women's Football
+        slug: womens-football
+        description: News and updates on women's football, including tournaments and leagues.
+      - name: Transfer News
+        slug: transfer-news
+        description: Latest transfers, transfer rumors, and transfer market updates.
+      - name: Player Profiles
+        slug: player-profiles
+        description: Profiles and statistics of football players from different leagues and teams.
+
+  - name: Basketball
+    slug: basketball
+    description: Basketball-related news and updates, covering leagues, international competitions, and player profiles.
+    image: /assets/images/blog/blog-img3.jpg
+    subcategories:
+      - name: Leagues
+        slug: leagues
+        description: News and updates from various basketball leagues around the world.
+      - name: International
+        slug: international
+        description: Updates on international basketball tournaments and competitions.
+      - name: Player Profiles
+        slug: player-profiles
+        description: Profiles and statistics of basketball players from different leagues and teams.
+
+  - name: Cricket
+    slug: cricket
+    description: Cricket news, including international tournaments, leagues, and player-focused content.
+    image: /assets/images/blog/blog-img3.jpg
+    subcategories:
+      - name: International
+        slug: international
+        description: Updates on international cricket tournaments and competitions.
+      - name: Leagues
+        slug: leagues
+        description: News and updates from various cricket leagues around the world.
+      - name: Player Focus
+        slug: player-focus
+        description: Biographies and records of cricket players from different countries.
+
+  - name: Tennis
+    slug: tennis
+    description: Tennis news, featuring major tournaments, player profiles, and insights into the world of tennis.
+    image: /assets/images/blog/blog-img3.jpg
+    subcategories:
+      - name: Tournaments
+        slug: tournaments
+        description: Coverage of major tennis tournaments, including Grand Slams and ATP/WTA Tours.
+      - name: Player Profiles
+        slug: player-profiles
+        description: Profiles and statistics of top-ranked tennis players and rising stars.
+
+  - name: Golf
+    slug: golf
+    description: Golf news, covering major tournaments, player profiles, course reviews, and equipment updates.
+    image: /assets/images/blog/blog-img3.jpg
+    subcategories:
+      - name: Tournaments
+        slug: tournaments
+        description: Updates on major golf tournaments, including the Masters and PGA Tour events.
+      - name: Player Profiles
+        slug: player-profiles
+        description: Profiles and statistics of golfers from around the world.
+      - name: Course Reviews
+        slug: course-reviews
+        description: Reviews and insights into famous golf courses and new openings.
+      - name: Equipment Reviews
+        slug: equipment-reviews
+        description: Reviews and updates on golf equipment and technology.
+
+  - name: Motorsports
+    slug: motorsports
+    description: Motorsports news, including Formula 1, MotoGP, rallying, and developments in electric racing.
+    image: /assets/images/blog/blog-img3.jpg
+    subcategories:
+      - name: Formula 1
+        slug: formula-1
+        description: News and updates from the world of Formula 1 racing, including race calendars and team news.
+      - name: MotoGP
+        slug: motogp
+        description: Updates on MotoGP races, rider profiles, and circuit information.
+      - name: Rallying
+        slug: rallying
+        description: Coverage of World Rally Championship events, rally racing news, and event previews.
+      - name: Electric Racing
+        slug: electric-racing
+        description: News and developments in electric racing, including Formula E updates and racing tech.
+  - name: Other Sports
+    slug: other-sports
+    description: News and updates from various sports such as the Olympics, extreme sports, and e-sports.
+    image: /assets/images/blog/blog-img3.jpg
+    subcategories:
+      - name: Olympics
+        slug: olympics
+        description: Coverage of Summer and Winter Olympics, including athlete profiles and event highlights.
+      - name: Extreme Sports
+        slug: extreme-sports
+        description: News and updates from the world of extreme sports, including surfing and skateboarding.
+      - name: E-Sports
+        slug: e-sports
+        description: Updates on major e-sports tournaments, team profiles, and gaming news.
+
+  - name: Health & Fitness
+    slug: health-fitness
+    description: Articles and tips on health, fitness, nutrition, wellness, and lifestyle.
+    image: /assets/images/blog/blog-img3.jpg
+    subcategories:
+      - name: Health
+        slug: health
+        description: Articles and tips on maintaining good physical and mental health.
+      - name: Fitness
+        slug: fitness
+        description: Workouts, exercises, and training tips for improving physical fitness.
+      - name: Nutrition
+        slug: nutrition
+        description: Information and advice on healthy eating habits, diet plans, and nutritional supplements.
+      - name: Fitness Gear and Apparel
+        slug: fitness-gear-apparel
+        description: Reviews and recommendations for fitness equipment, apparel, and technology.
+      - name: Wellness and Lifestyle
+        slug: wellness-lifestyle
+        description: Tips and advice on achieving overall wellness and maintaining a balanced lifestyle.
+
+  - name: Streaming Channels
+    slug: streaming-channels
+    description: Information about streaming channels and platforms for sports and entertainment content.
+    image: /assets/images/blog/blog-img3.jpg
+
+  - name: About Us
+    slug: about-us
+    description: Learn more about our website, mission, and team behind the scenes.
+    image: /assets/images/blog/blog-img3.jpg
+
+  - name: Contact
+    slug: contact
+    description: Get in touch with us for inquiries, feedback, or collaborations.
+    image: /assets/images/blog/blog-img3.jpg
