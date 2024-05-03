@@ -24,7 +24,7 @@
         {% for tag in page.tags %}
         <li class="list-inline-item"><a
                 class="mb-1 btn bg-light text-secondary bg-hover-danger text-hover-white bg-hover-danger text-hover-white"
-                href="{{'/tag/' | relative_url}}{{ tag | slugify }}">{{tag | capitalize }}</a></li>
+                href="{{'/tag/' | relative_url}}{{ tag | slugify }}/">{{tag | capitalize }}</a></li>
         {% endfor %}
     </ul>
 

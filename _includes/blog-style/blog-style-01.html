@@ -9,7 +9,7 @@
     <div data-aos="fade-in" class="card-body  d-md-flex align-items-center">
         <div class="card-flex-content">
             {% for category in post.categories %}
-                <a href="{{'/category/' | relative_url}}{{ category | slugify }}" class="badge bg-primary">{{category}}</a>
+                <a href="{{relative_url}}{{ category | slugify }}" class="badge bg-primary"></a>
             {% endfor %}
 
             <h4><a href="{{post.url | relative_url}}">{{post.title}}</a>
