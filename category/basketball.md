@@ -1,7 +1,7 @@
 ---
 layout: category  # Ensure there is a layout named 'category' in your _layouts directory
 title: Basketball
-permalink: /category/basketball/
+permalink: /basketball/
 ---
 
 [Add any static content here that you want to always appear above the posts list]
