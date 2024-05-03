@@ -46,9 +46,15 @@ pagination:
 autopages:
   enabled: true
   categories:
-    layouts: ["category.html"]
+    layouts:
+      - "category.html"
     title: ":cat"
-    permalink: "/:cat"
+    permalink: "/category/:cat"
+  collections:
+    layouts:
+      - "category.html"
+    title: " :coll" # :coll is replaced by the collection name
+    permalink: "/:coll/"
 
   collections:
     layouts:
