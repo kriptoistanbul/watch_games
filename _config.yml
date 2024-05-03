@@ -70,7 +70,7 @@ tag_permalink_style: pretty
 collections:
   posts:
     output: true
-    permalink: "/:categories/:title/"
+    permalink: "/:title/"
   authors:
     output: true
     permalink: "/author/:path/"
