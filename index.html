@@ -60,30 +60,30 @@ home: 6
    <div class="container-fluid">
       <div class="row">
          <div class="col-md-6 col-lg-4 pb-3">
-            {% assign cat = "Nature" %}
-            {% assign cat_slug = "nature" %}
+            {% assign cat = "Football" %}
+            {% assign cat_slug = "football" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 3 %}
             {% include nf-widget-05.html %}
          </div>
          <div class="col-md-6 col-lg-4  pb-3">
-            {% assign cat = "Receipe" %}
-            {% assign cat_slug = "receipe" %}
+            {% assign cat = "Basketball" %}
+            {% assign cat_slug = "basketball" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 3 %}
             {% include nf-widget-05.html %}
          </div>
          <div class="col-md-6 col-lg-4  pb-3">
-            {% assign cat = "National" %}
-            {% assign cat_slug = "national" %}
+            {% assign cat = "Motorsports" %}
+            {% assign cat_slug = "motorsports" %}
             {% assign posts = site.posts | where: "categories", cat %}
             {% assign post_limit = 3 %}
             {% include nf-widget-05.html %}
          </div>
       </div>
 
-      {% assign cat = "Fashion" %}
-      {% assign cat_slug = "fashion" %}
+      {% assign cat = "Streaming Channels" %}
+      {% assign cat_slug = "streaming-channels" %}
       {% assign posts = site.posts | where: "categories", cat %}
       {% assign limit = 4 %}
       {% include nf-widget-02.html %}
