@@ -8,7 +8,7 @@
     </div>
     <div class="card-body">
         {% for category in post.categories %}
-            <a href="{{'/category/' | relative_url}}{{ category | slugify }}" class="badge bg-danger">{{category}}</a>
+            <a href="{{relative_url}}{{ category | slugify }}" class="badge bg-danger">{{category}}</a>
         {% endfor %}
 
         <h2><a href="{{post.url | relative_url}}">{{post.title}}</a> </h2>

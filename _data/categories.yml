@@ -20,7 +20,7 @@
         description: Profiles and statistics of football players from different leagues and teams.
 
   - name: Basketball
-    permalink: /basketball/
+    slug: basketball
     description: Basketball-related news and updates, covering leagues, international competitions, and player profiles.
     image: /assets/images/blog/blog-img3.jpg
     subcategories:
