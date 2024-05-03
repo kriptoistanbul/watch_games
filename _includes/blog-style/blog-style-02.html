@@ -10,7 +10,7 @@
     <div data-aos="{% if page.home != 4 %}fade-in{% else %}fade-up{% endif %}" class="card-body d-md-flex align-items-center aos-init aos-animate">
         <div class="card-flex-content">
             {% for category in post.categories %}
-            <a href="{{'/category/' | relative_url}}{{ category | slugify }}" class="badge bg-info">{{category}}</a>
+            <a href="{{relative_url}}{{ category | slugify }}" class="badge bg-info">{{category}}</a>
             {% endfor %}
             <h4><a href="{{post.url | relative_url}}">{{post.title}}</a></h4>
 

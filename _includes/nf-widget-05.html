@@ -6,7 +6,7 @@
             <div class="section-title-block d-flex pb-3">
                 <h3 class="section-widget-title">{{cat}}</h3>
                 {% if cat == 'Trending' or page.home == 6 %}
-                <a href="{{'/category/' | reative_url}}{{cat | downcase}}" class="text-uppercase section-title-link">
+                <a href="{{reative_url}}{{cat | downcase}}" class="text-uppercase section-title-link">
                     See all
                     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -26,7 +26,7 @@
     {% if cat != 'Trending' %}
         <div class="row">
             <div class="col mt-3">
-                <a href="{{'/category/' | reative_url}}{{cat_slug}}" class="text-uppercase section-title-link">
+                <a href="{{reative_url}}{{cat_slug}}" class="text-uppercase section-title-link">
                     View all posts ({{posts.size}})
                     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path

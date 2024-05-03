@@ -33,12 +33,12 @@
                 {% assign posts = site.posts | where: "categories", cat %}
                 {% if posts.size > 0 %}
                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <a href="{{'/category/' | relative_url}}{{category.slug}}">{{category.name}}</a>
+                        <a href="{{relative_url}}{{category.slug}}">{{category.name}}</a>
                         <span class="badge bg-primary rounded-pill">{{posts.size}}</span>
                     </li>
                 {% endif %}
             {% endfor %}
-            
+
         </ul>
     </div>
 </div>
