@@ -7,7 +7,7 @@ author_id: 3
 featured: true
 date: 2024-03-02 8:14:30 +0600
 tags: [education]
-categories: [Basketball,Football]
+categories: [Basketball,Football,Curated]
 post_image: '/assets/images/home-4/blog-img1.jpg'
 excerpt: The and room. Know and nation question would the to copy. And leather and eyes human would collection.
 ---
