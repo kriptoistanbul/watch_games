@@ -33,12 +33,13 @@
                 {% assign posts = site.posts | where: "categories", cat %}
                 {% if posts.size > 0 %}
                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <a href="{{relative_url}}{{category.slug}}">{{category.name}}</a>
-                        <span class="badge bg-primary rounded-pill">{{posts.size}}</span>
+                        <!-- Correct use of relative_url filter -->
+                        <a href="{{ category.slug | prepend: '/' | relative_url }}/">{{ category.name }}</a>
+                        <span class="badge bg-primary rounded-pill">{{ posts.size }}</span>
                     </li>
                 {% endif %}
             {% endfor %}
-
         </ul>
+
     </div>
 </div>
